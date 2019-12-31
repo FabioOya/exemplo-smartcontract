@@ -3,7 +3,7 @@ pragma solidity ^0.4.17;
 contract Welcome {
     address contractOwner;
     string greetMsg;
-}
+
 
     function Welcome(string _greetMsg) public {
         contractOwner = msg.sender;
